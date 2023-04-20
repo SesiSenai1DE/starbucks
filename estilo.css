@@ -298,6 +298,29 @@
         font-size: 2.5em;
         margin-bottom: 15px;
       }
+
+      .conteudo .textoPrincipal {
+        max-width: 300px;
+      
+      }
+      .thumb li img {
+        max-width: 40px;
+      }
+
+      /* Círculo */
+
+      .circulo {
+        clip-path: circle(400px at center bottom); /* Deixa o círculo no centro da tela */
+      }
+      .sociais {
+        background: var(--corPrimaria);
+        right: 0;
+        width: 50px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+
+      /* Fazer neste ponto as funções (2ª e 3ª) */
     }
 
 

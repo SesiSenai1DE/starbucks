@@ -6,3 +6,14 @@ function toggleMenu() {
     menuToggle.classList.toggle('active') // Troca o estado da classe (.toggle) para ativo
     links.classList.toggle('active') // Troca o estado da classe (.links) para ativo
 }
+
+// Troca a imagem (Do sorvete grande)
+function imgSlider(anything){
+    document.querySelector('.starbucks').src = anything;
+}
+
+// Troca a cor do círculo
+function changeCircleColor(color){
+    const circulo =document.querySelector('.circulo');
+    circulo.style.background = color;
+}
