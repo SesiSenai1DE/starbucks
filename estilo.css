@@ -176,3 +176,52 @@
     .sorvetes li img {
       max-width: 60px;
     }
+
+    /* Imagens das redes sociais */
+
+    .sociais {
+      position: absolute;
+      top: 50%;
+      right: 30px;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .sociais li {
+      list-style: none;
+    }
+
+    .sociais li a {
+      display: inline-block;
+      margin: 5px 0;
+      transform: scale(0.6); /* Reduz o tamanho dos ícones */
+      filter: invert(1); /* Inverte a cor para Branco */
+    }
+
+    .sociais li a:hover {
+      color: var(--corSecundaria);
+      filter: invert(0);
+    }
+
+    /* ________________________________________________ */
+    /* Círculo */
+
+    .circulo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--corPrimaria);
+
+      /* https://bennettfeely.com/clippy/ */
+
+      /* Tamanho - Lado - posição */
+      clip-path: circle(600px at right 800px);
+
+    }
+
+
